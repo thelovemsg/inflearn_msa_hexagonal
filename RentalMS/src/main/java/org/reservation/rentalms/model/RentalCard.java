@@ -1,5 +1,6 @@
 package org.reservation.rentalms.model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,12 +14,18 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 public class RentalCard {
+    @EmbeddedId
     private RentalCardNo rentalCardNo;
+    @Embedded
     private IDName member;
     private RentStatus rentStatus;
+    @Embedded
     private LateFee lateFee;
+    @ElementCollection
     private List<RentalItem> rentalItemList = new ArrayList<>();
+    @ElementCollection
     private List<ReturnItem> returnItemList = new ArrayList<>();
 
     public static RentalCard sample() {

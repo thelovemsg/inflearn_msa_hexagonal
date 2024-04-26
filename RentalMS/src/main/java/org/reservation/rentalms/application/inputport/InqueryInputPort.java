@@ -23,8 +23,8 @@ public class InqueryInputPort implements InqueryUsecase {
     }
 
     @Override
-    public Optional<List<RentItemOutputDTO>> getAllRentItem(UserItemInputDTO userItemInputDTO) {
-        return rentalCardOutputPort.loadRentalCard(userItemInputDTO.userId)
+    public Optional<List<RentItemOutputDTO>> getAllRentItem(UserInputDTO userInputDTO) {
+        return rentalCardOutputPort.loadRentalCard(userInputDTO.userId)
                         .map(loadCard -> loadCard.getRentalItemList().stream().map(RentItemOutputDTO::mapToDTO).toList());
     }
 
