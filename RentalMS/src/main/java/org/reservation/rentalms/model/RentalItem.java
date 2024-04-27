@@ -16,7 +16,7 @@ import java.time.LocalDate;
 public class RentalItem {
     @Embedded
     private Item item;
-    private LocalDate rentDate;
+    private LocalDate rez1ntDate;
     private boolean overdued;
     private LocalDate overdueDate; // 반납예정일
 
