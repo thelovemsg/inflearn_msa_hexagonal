@@ -1,14 +1,13 @@
 package com.msa.book;
 
-import com.msa.book.config.domain.model.Book;
-import com.msa.book.config.domain.model.vo.Classification;
-import com.msa.book.config.domain.model.vo.Location;
-import com.msa.book.config.domain.model.vo.Source;
+import com.msa.book.domain.model.Book;
+import com.msa.book.domain.model.vo.Classification;
+import com.msa.book.domain.model.vo.Location;
+import com.msa.book.domain.model.vo.Source;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.time.LocalDate;
-import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class BookApplication {

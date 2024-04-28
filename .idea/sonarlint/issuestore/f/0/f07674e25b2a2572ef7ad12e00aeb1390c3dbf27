@@ -1,0 +1,6 @@
+
+t	java:S116"SRename this field "MemberNo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ë•şÿÿÿÿ8·Ù¢ò1
+
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÄšŞ8åâß¢ò1
+Y
+java:S11728"<Remove these unused method parameters "idNname", "password".(°Ü8ìâß¢ò1

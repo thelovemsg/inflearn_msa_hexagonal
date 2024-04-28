@@ -6,8 +6,10 @@ plugins {
 
 group = 'com.msa'
 version = '0.0.1-SNAPSHOT'
-description = 'Book'
-java.sourceCompatibility = JavaVersion.VERSION_17
+
+java {
+    sourceCompatibility = '17'
+}
 
 repositories {
     mavenCentral()
@@ -29,4 +31,6 @@ dependencies {
     testImplementation 'org.springframework.kafka:spring-kafka-test'
 }
 
-
+tasks.named('test') {
+    useJUnitPlatform()
+}
