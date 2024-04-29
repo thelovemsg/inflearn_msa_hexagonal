@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BestBookMS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BestBookMS.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Book.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Book.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MemberMS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MemberMS.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RentalMS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RentalMS.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/msa.iml" filepath="$PROJECT_DIR$/.idea/msa.iml" />
     </modules>
