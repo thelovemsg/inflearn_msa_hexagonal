@@ -1,7 +1,7 @@
 package com.msa.rental.framework.jpaadapter;
 
 import com.msa.rental.application.outputport.RentalCardOutputPort;
-import com.msa.rental.model.RentalCard;
+import com.msa.rental.domain.model.RentalCard;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

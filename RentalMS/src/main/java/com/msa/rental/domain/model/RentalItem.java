@@ -1,6 +1,6 @@
-package com.msa.rental.model;
+package com.msa.rental.domain.model;
 
-import com.msa.rental.model.vo.Item;
+import com.msa.rental.domain.model.vo.Item;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.Embedded;
 import lombok.AllArgsConstructor;

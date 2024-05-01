@@ -1,7 +1,7 @@
 package com.msa.rental;
 
-import com.msa.rental.model.RentalCard;
-import com.msa.rental.model.vo.Item;
+import com.msa.rental.domain.model.RentalCard;
+import com.msa.rental.domain.model.vo.Item;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,6 +1,6 @@
 package com.msa.rental.application.outputport;
 
-import com.msa.rental.model.RentalCard;
+import com.msa.rental.domain.model.RentalCard;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

@@ -1,0 +1,6 @@
+
+‚
+java:S1192("eDefine a constant instead of duplicating this literal "Sent message = [%s] with offset [%s]" 3 times.(Ñ»ˆ8¢¨è•ó1
+q	java:S116"URename this field "TOPIC_RENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÓœÜ8¤¨è•ó1
+r	java:S116"WRename this field "TOPIC_RETURN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê ï$8¤¨è•ó1
+w	java:S116"VRename this field "TOPIC_CLEAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘®Æ›ÿÿÿÿÿ8¥¨è•ó1

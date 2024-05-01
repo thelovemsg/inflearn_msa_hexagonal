@@ -1,4 +1,4 @@
-package com.msa.rental.model.vo;
+package com.msa.rental.domain.model.vo;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

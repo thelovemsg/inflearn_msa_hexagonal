@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import com.msa.rental.model.vo.ReturnItem;
+import com.msa.rental.domain.model.vo.ReturnItem;
 
 import java.time.LocalDate;
 

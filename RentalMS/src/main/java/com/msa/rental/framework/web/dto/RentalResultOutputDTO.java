@@ -1,6 +1,6 @@
 package com.msa.rental.framework.web.dto;
 
-import com.msa.rental.model.RentalCard;
+import com.msa.rental.domain.model.RentalCard;
 import lombok.Getter;
 import lombok.Setter;
 

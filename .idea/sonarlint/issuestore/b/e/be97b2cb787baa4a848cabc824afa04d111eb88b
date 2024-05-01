@@ -2,6 +2,10 @@
 F	java:S106"+Replace this use of System.out by a logger.(š±º8ŞœÜĞò1
 F	java:S106"+Replace this use of System.out by a logger.(š±º8ŞœÜĞò1
 G	java:S106"+Replace this use of System.out by a logger.(ñåø8ßœÜĞò1
+_
+java:S1858"B"getTitle" returns a string, there's no need to call "toString()".(ñåø8Óñ´“ó1
 L	java:S106"+Replace this use of System.out by a logger.(ı½ıëûÿÿÿÿ8àœÜĞò1
 G	java:S106"+Replace this use of System.out by a logger.(É’µ­8áœÜĞò1
+_
+java:S1858"B"getTitle" returns a string, there's no need to call "toString()".(É’µ­8Öñ´“ó1
 L	java:S106"+Replace this use of System.out by a logger.(çÊ†€ÿÿÿÿÿ8áœÜĞò1

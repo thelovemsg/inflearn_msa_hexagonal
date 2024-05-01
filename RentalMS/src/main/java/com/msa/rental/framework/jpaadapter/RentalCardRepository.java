@@ -1,7 +1,7 @@
 package com.msa.rental.framework.jpaadapter;
 
-import com.msa.rental.model.RentalCard;
-import com.msa.rental.model.vo.RentalCardNo;
+import com.msa.rental.domain.model.RentalCard;
+import com.msa.rental.domain.model.vo.RentalCardNo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
